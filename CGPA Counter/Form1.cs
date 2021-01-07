@@ -454,15 +454,15 @@ namespace CGPA_Counter
             {
                 textBox27.Text = "0";
             }
+            else if (textBox27.Text == ".")
+            {
+                MessageBox.Show("Invalid Value" );
+            }
             first = float.Parse(textBox27.Text);
             if(textBox27.Text!="")
             {
                 first1 = 1;
-            }
-            else if (textBox27.Text != "0")
-            {
-                first1 = 0;
-            }
+            }         
             else
             {
                 first1 = 0;
@@ -477,12 +477,16 @@ namespace CGPA_Counter
             {
                 textBox26.Text = "0";
             }
+            else if (textBox26.Text == ".")
+            {
+                MessageBox.Show("Invalid Value");
+            }
             second = float.Parse(textBox26.Text);
             if (textBox26.Text != "")
             {
                 second2 = 1;
             }
-            else if (textBox26.Text != "0")
+            else if (textBox26.Text == "0")
             {
                 second2 = 0;
             }
@@ -498,12 +502,16 @@ namespace CGPA_Counter
             {
                 textBox25.Text = "0";
             }
+            else if (textBox25.Text == ".")
+            {
+                MessageBox.Show("Invalid Value");
+            }
             third = float.Parse(textBox25.Text);
             if (textBox25.Text != "")
             {
                 third3 = 1;
             }
-            else if (textBox25.Text != "0")
+            else if (textBox25.Text == "0")
             {
                 third3 = 0;
             }
@@ -519,12 +527,16 @@ namespace CGPA_Counter
             {
                 textBox24.Text = "0";
             }
+            else if (textBox24.Text == ".")
+            {
+                MessageBox.Show("Invalid Value");
+            }
             fourth = float.Parse(textBox24.Text);
             if (textBox24.Text != "")
             {
                 fourth4 = 1;
             }
-            else if (textBox24.Text != "0")
+            else if (textBox24.Text == "0")
             {
                 fourth4 = 0;
             }
@@ -540,12 +552,16 @@ namespace CGPA_Counter
             {
                 textBox23.Text = "0";
             }
+            else if (textBox23.Text == ".")
+            {
+                MessageBox.Show("Invalid Value");
+            }
             fifth = float.Parse(textBox23.Text);
             if (textBox23.Text != "")
             {
                 fifth5 = 1;
             }
-            else if (textBox23.Text != "0")
+            else if (textBox23.Text == "0")
             {
                 fifth5 = 0;
             }
@@ -561,12 +577,16 @@ namespace CGPA_Counter
             {
                 textBox22.Text = "0";
             }
+            else if (textBox22.Text == ".")
+            {
+                MessageBox.Show("Invalid Value");
+            }
             sixth = float.Parse(textBox22.Text);
             if (textBox22.Text != "")
             {
                 sixth6 = 1;
             }
-            else if (textBox22.Text != "0")
+            else if (textBox22.Text == "0")
             {
                 sixth6 = 0;
             }
@@ -582,12 +602,16 @@ namespace CGPA_Counter
             {
                 textBox21.Text = "0";
             }
+            else if (textBox21.Text == ".")
+            {
+                MessageBox.Show("Invalid Value");
+            }
             sevent = float.Parse(textBox21.Text);
             if (textBox21.Text != "")
             {
                 sevent7 = 1;
             }
-            else if (textBox21.Text != "0")
+            else if (textBox21.Text == "0")
             {
                 sevent7 = 0;
             }
@@ -603,12 +627,16 @@ namespace CGPA_Counter
             {
                 textBox20.Text = "0";
             }
+            else if (textBox20.Text == ".")
+            {
+                MessageBox.Show("Invalid Value");
+            }
             eight = float.Parse(textBox20.Text);
             if (textBox20.Text != "")
             {
                 eight8 = 1;
             }
-            else if (textBox20.Text != "0")
+            else if (textBox20.Text == "0")
             {
                 eight8 = 0;
             }
@@ -624,12 +652,16 @@ namespace CGPA_Counter
             {
                 textBox19.Text = "0";
             }
+            else if (textBox19.Text == ".")
+            {
+                MessageBox.Show("Invalid Value");
+            }
             nine = float.Parse(textBox19.Text);
             if (textBox19.Text != "")
             {
                 nine9 = 1;
             }
-            else if (textBox19.Text != "0")
+            else if (textBox19.Text == "0")
             {
                 nine9 = 0;
             }
@@ -643,9 +675,10 @@ namespace CGPA_Counter
         {
             float cgp = first + second + third + fourth + fifth + sixth + sevent + eight + nine;
             float sem = first1 + second2 + third3 + fourth4 + fifth5 + sixth6 + sevent7 + eight8 + nine9;
-            float result = cgp / sem;
-            textBox28.Text = result.ToString();
-            textBox19.Text = textBox20.Text = textBox21.Text = textBox22.Text = textBox23.Text = textBox24.Text = textBox25.Text = textBox26.Text = textBox27.Text = textBox28.Text = string.Empty;
+            float resultSSS = cgp / sem;
+            
+            RESU.Text=resultSSS.ToString();
+            textBox19.Text = textBox20.Text = textBox21.Text = textBox22.Text = textBox23.Text = textBox24.Text = textBox25.Text = textBox26.Text = textBox27.Text = string.Empty;
 
         }
     }
