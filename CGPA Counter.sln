@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CGPA Counter", "CGPA Counter\CGPA Counter.csproj", "{61E32658-4FEF-45E5-8911-ABEA1498DD34}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B93FEED4-E427-4934-AADA-BE12CFD8EF38}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{61E32658-4FEF-45E5-8911-ABEA1498DD34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61E32658-4FEF-45E5-8911-ABEA1498DD34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61E32658-4FEF-45E5-8911-ABEA1498DD34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61E32658-4FEF-45E5-8911-ABEA1498DD34}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BD25E5B3-7714-413A-B798-CB37F2C3A1D4}
+	EndGlobalSection
+EndGlobal
