@@ -678,11 +678,22 @@ namespace CGPA_Counter
 
         private void button2_Click(object sender, EventArgs e)
         {
-            float cgp = first + second + third + fourth + fifth + sixth + sevent + eight + nine;
-            float sem = first1 + second2 + third3 + fourth4 + fifth5 + sixth6 + sevent7 + eight8 + nine9;
-            float resultSSS = cgp / sem;
+            if(comboBox1.Text=="")
+            {
+                MessageBox.Show("First Select Number Of Semesters");
+            }
+            else
+            {
+                float cgp = first + second + third + fourth + fifth + sixth + sevent + eight + nine;
+                float sem = first1 + second2 + third3 + fourth4 + fifth5 + sixth6 + sevent7 + eight8 + nine9;
+                float resultSSS = cgp / sem;
+
+
+                RESU.Text=resultSSS.ToString();
+            }
             
-            RESU.Text=resultSSS.ToString();
+            
+           
             //textBox19.Text = textBox20.Text = textBox21.Text = textBox22.Text = textBox23.Text = textBox24.Text = textBox25.Text = textBox26.Text = textBox27.Text = string.Empty;
 
         }
