@@ -33,27 +33,26 @@ namespace CGPA_Counter
             this.Cgpa = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.RESU = new System.Windows.Forms.TextBox();
-            this.label31 = new System.Windows.Forms.Label();
             this.button2 = new System.Windows.Forms.Button();
             this.label29 = new System.Windows.Forms.Label();
-            this.textBox19 = new System.Windows.Forms.TextBox();
-            this.label20 = new System.Windows.Forms.Label();
-            this.textBox20 = new System.Windows.Forms.TextBox();
-            this.label21 = new System.Windows.Forms.Label();
-            this.textBox21 = new System.Windows.Forms.TextBox();
-            this.label22 = new System.Windows.Forms.Label();
-            this.textBox22 = new System.Windows.Forms.TextBox();
-            this.label23 = new System.Windows.Forms.Label();
-            this.textBox23 = new System.Windows.Forms.TextBox();
-            this.label24 = new System.Windows.Forms.Label();
-            this.textBox24 = new System.Windows.Forms.TextBox();
-            this.label25 = new System.Windows.Forms.Label();
-            this.textBox25 = new System.Windows.Forms.TextBox();
-            this.label26 = new System.Windows.Forms.Label();
-            this.textBox26 = new System.Windows.Forms.TextBox();
-            this.label27 = new System.Windows.Forms.Label();
-            this.textBox27 = new System.Windows.Forms.TextBox();
-            this.label28 = new System.Windows.Forms.Label();
+            this.textBox999 = new System.Windows.Forms.TextBox();
+            this.label999 = new System.Windows.Forms.Label();
+            this.textBox888 = new System.Windows.Forms.TextBox();
+            this.label888 = new System.Windows.Forms.Label();
+            this.textBox777 = new System.Windows.Forms.TextBox();
+            this.label777 = new System.Windows.Forms.Label();
+            this.textBox666 = new System.Windows.Forms.TextBox();
+            this.label666 = new System.Windows.Forms.Label();
+            this.textBox555 = new System.Windows.Forms.TextBox();
+            this.label55 = new System.Windows.Forms.Label();
+            this.textBox444 = new System.Windows.Forms.TextBox();
+            this.label444 = new System.Windows.Forms.Label();
+            this.textBox333 = new System.Windows.Forms.TextBox();
+            this.label333 = new System.Windows.Forms.Label();
+            this.textBox222 = new System.Windows.Forms.TextBox();
+            this.label222 = new System.Windows.Forms.Label();
+            this.textBox111 = new System.Windows.Forms.TextBox();
+            this.label111 = new System.Windows.Forms.Label();
             this.tabPage3 = new System.Windows.Forms.TabPage();
             this.label30 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
@@ -96,9 +95,15 @@ namespace CGPA_Counter
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label32 = new System.Windows.Forms.Label();
+            this.textBox1010 = new System.Windows.Forms.TextBox();
+            this.label1010 = new System.Windows.Forms.Label();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.label20 = new System.Windows.Forms.Label();
+            this.panel1 = new System.Windows.Forms.Panel();
             this.Cgpa.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tabPage3.SuspendLayout();
+            this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // Cgpa
@@ -116,28 +121,12 @@ namespace CGPA_Counter
             this.tabPage1.BackColor = System.Drawing.Color.Transparent;
             this.tabPage1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("tabPage1.BackgroundImage")));
             this.tabPage1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.tabPage1.Controls.Add(this.panel1);
+            this.tabPage1.Controls.Add(this.label20);
+            this.tabPage1.Controls.Add(this.comboBox1);
             this.tabPage1.Controls.Add(this.RESU);
-            this.tabPage1.Controls.Add(this.label31);
             this.tabPage1.Controls.Add(this.button2);
             this.tabPage1.Controls.Add(this.label29);
-            this.tabPage1.Controls.Add(this.textBox19);
-            this.tabPage1.Controls.Add(this.label20);
-            this.tabPage1.Controls.Add(this.textBox20);
-            this.tabPage1.Controls.Add(this.label21);
-            this.tabPage1.Controls.Add(this.textBox21);
-            this.tabPage1.Controls.Add(this.label22);
-            this.tabPage1.Controls.Add(this.textBox22);
-            this.tabPage1.Controls.Add(this.label23);
-            this.tabPage1.Controls.Add(this.textBox23);
-            this.tabPage1.Controls.Add(this.label24);
-            this.tabPage1.Controls.Add(this.textBox24);
-            this.tabPage1.Controls.Add(this.label25);
-            this.tabPage1.Controls.Add(this.textBox25);
-            this.tabPage1.Controls.Add(this.label26);
-            this.tabPage1.Controls.Add(this.textBox26);
-            this.tabPage1.Controls.Add(this.label27);
-            this.tabPage1.Controls.Add(this.textBox27);
-            this.tabPage1.Controls.Add(this.label28);
             this.tabPage1.Location = new System.Drawing.Point(4, 22);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
@@ -153,17 +142,6 @@ namespace CGPA_Counter
             this.RESU.ReadOnly = true;
             this.RESU.Size = new System.Drawing.Size(297, 116);
             this.RESU.TabIndex = 56;
-            // 
-            // label31
-            // 
-            this.label31.AutoSize = true;
-            this.label31.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label31.ForeColor = System.Drawing.Color.Red;
-            this.label31.Location = new System.Drawing.Point(242, 3);
-            this.label31.Name = "label31";
-            this.label31.Size = new System.Drawing.Size(337, 20);
-            this.label31.TabIndex = 55;
-            this.label31.Text = "Max Nine Semesters Cgpa Can Be Count";
             // 
             // button2
             // 
@@ -188,167 +166,167 @@ namespace CGPA_Counter
             this.label29.TabIndex = 53;
             this.label29.Text = "Your Cgpa";
             // 
-            // textBox19
+            // textBox999
             // 
-            this.textBox19.Location = new System.Drawing.Point(140, 361);
-            this.textBox19.Name = "textBox19";
-            this.textBox19.Size = new System.Drawing.Size(51, 20);
-            this.textBox19.TabIndex = 51;
-            this.textBox19.TextChanged += new System.EventHandler(this.textBox19_TextChanged);
+            this.textBox999.Location = new System.Drawing.Point(118, 334);
+            this.textBox999.Name = "textBox999";
+            this.textBox999.Size = new System.Drawing.Size(51, 20);
+            this.textBox999.TabIndex = 51;
+            this.textBox999.TextChanged += new System.EventHandler(this.textBox19_TextChanged);
             // 
-            // label20
+            // label999
             // 
-            this.label20.AutoSize = true;
-            this.label20.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label20.Location = new System.Drawing.Point(51, 364);
-            this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(85, 13);
-            this.label20.TabIndex = 50;
-            this.label20.Text = "Semester Cgp";
+            this.label999.AutoSize = true;
+            this.label999.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label999.Location = new System.Drawing.Point(29, 337);
+            this.label999.Name = "label999";
+            this.label999.Size = new System.Drawing.Size(85, 13);
+            this.label999.TabIndex = 50;
+            this.label999.Text = "Semester Cgp";
             // 
-            // textBox20
+            // textBox888
             // 
-            this.textBox20.Location = new System.Drawing.Point(140, 318);
-            this.textBox20.Name = "textBox20";
-            this.textBox20.Size = new System.Drawing.Size(51, 20);
-            this.textBox20.TabIndex = 49;
-            this.textBox20.TextChanged += new System.EventHandler(this.textBox20_TextChanged);
+            this.textBox888.Location = new System.Drawing.Point(118, 291);
+            this.textBox888.Name = "textBox888";
+            this.textBox888.Size = new System.Drawing.Size(51, 20);
+            this.textBox888.TabIndex = 49;
+            this.textBox888.TextChanged += new System.EventHandler(this.textBox20_TextChanged);
             // 
-            // label21
+            // label888
             // 
-            this.label21.AutoSize = true;
-            this.label21.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label21.Location = new System.Drawing.Point(51, 321);
-            this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(85, 13);
-            this.label21.TabIndex = 48;
-            this.label21.Text = "Semester Cgp";
+            this.label888.AutoSize = true;
+            this.label888.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label888.Location = new System.Drawing.Point(29, 294);
+            this.label888.Name = "label888";
+            this.label888.Size = new System.Drawing.Size(85, 13);
+            this.label888.TabIndex = 48;
+            this.label888.Text = "Semester Cgp";
             // 
-            // textBox21
+            // textBox777
             // 
-            this.textBox21.Location = new System.Drawing.Point(140, 275);
-            this.textBox21.Name = "textBox21";
-            this.textBox21.Size = new System.Drawing.Size(51, 20);
-            this.textBox21.TabIndex = 47;
-            this.textBox21.TextChanged += new System.EventHandler(this.textBox21_TextChanged);
+            this.textBox777.Location = new System.Drawing.Point(118, 248);
+            this.textBox777.Name = "textBox777";
+            this.textBox777.Size = new System.Drawing.Size(51, 20);
+            this.textBox777.TabIndex = 47;
+            this.textBox777.TextChanged += new System.EventHandler(this.textBox21_TextChanged);
             // 
-            // label22
+            // label777
             // 
-            this.label22.AutoSize = true;
-            this.label22.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label22.Location = new System.Drawing.Point(51, 278);
-            this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(85, 13);
-            this.label22.TabIndex = 46;
-            this.label22.Text = "Semester Cgp";
+            this.label777.AutoSize = true;
+            this.label777.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label777.Location = new System.Drawing.Point(29, 251);
+            this.label777.Name = "label777";
+            this.label777.Size = new System.Drawing.Size(85, 13);
+            this.label777.TabIndex = 46;
+            this.label777.Text = "Semester Cgp";
             // 
-            // textBox22
+            // textBox666
             // 
-            this.textBox22.Location = new System.Drawing.Point(140, 233);
-            this.textBox22.Name = "textBox22";
-            this.textBox22.Size = new System.Drawing.Size(51, 20);
-            this.textBox22.TabIndex = 45;
-            this.textBox22.TextChanged += new System.EventHandler(this.textBox22_TextChanged);
+            this.textBox666.Location = new System.Drawing.Point(118, 206);
+            this.textBox666.Name = "textBox666";
+            this.textBox666.Size = new System.Drawing.Size(51, 20);
+            this.textBox666.TabIndex = 45;
+            this.textBox666.TextChanged += new System.EventHandler(this.textBox22_TextChanged);
             // 
-            // label23
+            // label666
             // 
-            this.label23.AutoSize = true;
-            this.label23.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label23.Location = new System.Drawing.Point(51, 236);
-            this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(85, 13);
-            this.label23.TabIndex = 44;
-            this.label23.Text = "Semester Cgp";
+            this.label666.AutoSize = true;
+            this.label666.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label666.Location = new System.Drawing.Point(29, 209);
+            this.label666.Name = "label666";
+            this.label666.Size = new System.Drawing.Size(85, 13);
+            this.label666.TabIndex = 44;
+            this.label666.Text = "Semester Cgp";
             // 
-            // textBox23
+            // textBox555
             // 
-            this.textBox23.Location = new System.Drawing.Point(140, 190);
-            this.textBox23.Name = "textBox23";
-            this.textBox23.Size = new System.Drawing.Size(51, 20);
-            this.textBox23.TabIndex = 43;
-            this.textBox23.TextChanged += new System.EventHandler(this.textBox23_TextChanged);
+            this.textBox555.Location = new System.Drawing.Point(118, 163);
+            this.textBox555.Name = "textBox555";
+            this.textBox555.Size = new System.Drawing.Size(51, 20);
+            this.textBox555.TabIndex = 43;
+            this.textBox555.TextChanged += new System.EventHandler(this.textBox23_TextChanged);
             // 
-            // label24
+            // label55
             // 
-            this.label24.AutoSize = true;
-            this.label24.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label24.Location = new System.Drawing.Point(51, 193);
-            this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(85, 13);
-            this.label24.TabIndex = 42;
-            this.label24.Text = "Semester Cgp";
+            this.label55.AutoSize = true;
+            this.label55.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label55.Location = new System.Drawing.Point(29, 166);
+            this.label55.Name = "label55";
+            this.label55.Size = new System.Drawing.Size(85, 13);
+            this.label55.TabIndex = 42;
+            this.label55.Text = "Semester Cgp";
             // 
-            // textBox24
+            // textBox444
             // 
-            this.textBox24.Location = new System.Drawing.Point(140, 147);
-            this.textBox24.Name = "textBox24";
-            this.textBox24.Size = new System.Drawing.Size(51, 20);
-            this.textBox24.TabIndex = 41;
-            this.textBox24.TextChanged += new System.EventHandler(this.textBox24_TextChanged);
+            this.textBox444.Location = new System.Drawing.Point(118, 120);
+            this.textBox444.Name = "textBox444";
+            this.textBox444.Size = new System.Drawing.Size(51, 20);
+            this.textBox444.TabIndex = 41;
+            this.textBox444.TextChanged += new System.EventHandler(this.textBox24_TextChanged);
             // 
-            // label25
+            // label444
             // 
-            this.label25.AutoSize = true;
-            this.label25.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label25.Location = new System.Drawing.Point(51, 150);
-            this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(85, 13);
-            this.label25.TabIndex = 40;
-            this.label25.Text = "Semester Cgp";
+            this.label444.AutoSize = true;
+            this.label444.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label444.Location = new System.Drawing.Point(29, 123);
+            this.label444.Name = "label444";
+            this.label444.Size = new System.Drawing.Size(85, 13);
+            this.label444.TabIndex = 40;
+            this.label444.Text = "Semester Cgp";
             // 
-            // textBox25
+            // textBox333
             // 
-            this.textBox25.Location = new System.Drawing.Point(140, 108);
-            this.textBox25.Name = "textBox25";
-            this.textBox25.Size = new System.Drawing.Size(51, 20);
-            this.textBox25.TabIndex = 39;
-            this.textBox25.TextChanged += new System.EventHandler(this.textBox25_TextChanged);
+            this.textBox333.Location = new System.Drawing.Point(118, 81);
+            this.textBox333.Name = "textBox333";
+            this.textBox333.Size = new System.Drawing.Size(51, 20);
+            this.textBox333.TabIndex = 39;
+            this.textBox333.TextChanged += new System.EventHandler(this.textBox25_TextChanged);
             // 
-            // label26
+            // label333
             // 
-            this.label26.AutoSize = true;
-            this.label26.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label26.Location = new System.Drawing.Point(51, 111);
-            this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(85, 13);
-            this.label26.TabIndex = 38;
-            this.label26.Text = "Semester Cgp";
+            this.label333.AutoSize = true;
+            this.label333.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label333.Location = new System.Drawing.Point(29, 84);
+            this.label333.Name = "label333";
+            this.label333.Size = new System.Drawing.Size(85, 13);
+            this.label333.TabIndex = 38;
+            this.label333.Text = "Semester Cgp";
             // 
-            // textBox26
+            // textBox222
             // 
-            this.textBox26.Location = new System.Drawing.Point(140, 69);
-            this.textBox26.Name = "textBox26";
-            this.textBox26.Size = new System.Drawing.Size(51, 20);
-            this.textBox26.TabIndex = 37;
-            this.textBox26.TextChanged += new System.EventHandler(this.textBox26_TextChanged);
+            this.textBox222.Location = new System.Drawing.Point(118, 42);
+            this.textBox222.Name = "textBox222";
+            this.textBox222.Size = new System.Drawing.Size(51, 20);
+            this.textBox222.TabIndex = 37;
+            this.textBox222.TextChanged += new System.EventHandler(this.textBox26_TextChanged);
             // 
-            // label27
+            // label222
             // 
-            this.label27.AutoSize = true;
-            this.label27.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label27.Location = new System.Drawing.Point(51, 72);
-            this.label27.Name = "label27";
-            this.label27.Size = new System.Drawing.Size(85, 13);
-            this.label27.TabIndex = 36;
-            this.label27.Text = "Semester Cgp";
+            this.label222.AutoSize = true;
+            this.label222.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label222.Location = new System.Drawing.Point(29, 45);
+            this.label222.Name = "label222";
+            this.label222.Size = new System.Drawing.Size(85, 13);
+            this.label222.TabIndex = 36;
+            this.label222.Text = "Semester Cgp";
             // 
-            // textBox27
+            // textBox111
             // 
-            this.textBox27.Location = new System.Drawing.Point(140, 31);
-            this.textBox27.Name = "textBox27";
-            this.textBox27.Size = new System.Drawing.Size(51, 20);
-            this.textBox27.TabIndex = 35;
-            this.textBox27.TextChanged += new System.EventHandler(this.textBox27_TextChanged);
+            this.textBox111.Location = new System.Drawing.Point(118, 4);
+            this.textBox111.Name = "textBox111";
+            this.textBox111.Size = new System.Drawing.Size(51, 20);
+            this.textBox111.TabIndex = 35;
+            this.textBox111.TextChanged += new System.EventHandler(this.textBox27_TextChanged);
             // 
-            // label28
+            // label111
             // 
-            this.label28.AutoSize = true;
-            this.label28.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label28.Location = new System.Drawing.Point(51, 34);
-            this.label28.Name = "label28";
-            this.label28.Size = new System.Drawing.Size(85, 13);
-            this.label28.TabIndex = 34;
-            this.label28.Text = "Semester Cgp";
+            this.label111.AutoSize = true;
+            this.label111.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label111.Location = new System.Drawing.Point(29, 7);
+            this.label111.Name = "label111";
+            this.label111.Size = new System.Drawing.Size(85, 13);
+            this.label111.TabIndex = 34;
+            this.label111.Text = "Semester Cgp";
             // 
             // tabPage3
             // 
@@ -399,7 +377,7 @@ namespace CGPA_Counter
             this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage3.Size = new System.Drawing.Size(788, 418);
             this.tabPage3.TabIndex = 2;
-            this.tabPage3.Text = "CGP";
+            this.tabPage3.Text = "GPA";
             this.tabPage3.UseVisualStyleBackColor = true;
             this.tabPage3.Click += new System.EventHandler(this.tabPage3_Click);
             // 
@@ -422,7 +400,7 @@ namespace CGPA_Counter
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(180, 56);
             this.button1.TabIndex = 38;
-            this.button1.Text = "Calculate My Cg";
+            this.button1.Text = "Calculate My GPA";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
@@ -432,9 +410,9 @@ namespace CGPA_Counter
             this.label19.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label19.Location = new System.Drawing.Point(472, 85);
             this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(191, 20);
+            this.label19.Size = new System.Drawing.Size(205, 20);
             this.label19.TabIndex = 37;
-            this.label19.Text = "Your Cg In This Semester";
+            this.label19.Text = "Your GPA In This Semester";
             // 
             // Results
             // 
@@ -797,6 +775,82 @@ namespace CGPA_Counter
             this.label32.TabIndex = 40;
             this.label32.Text = "Created By Efti";
             // 
+            // textBox1010
+            // 
+            this.textBox1010.Location = new System.Drawing.Point(118, 377);
+            this.textBox1010.Name = "textBox1010";
+            this.textBox1010.Size = new System.Drawing.Size(51, 20);
+            this.textBox1010.TabIndex = 58;
+            // 
+            // label1010
+            // 
+            this.label1010.AutoSize = true;
+            this.label1010.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1010.Location = new System.Drawing.Point(29, 380);
+            this.label1010.Name = "label1010";
+            this.label1010.Size = new System.Drawing.Size(85, 13);
+            this.label1010.TabIndex = 57;
+            this.label1010.Text = "Semester Cgp";
+            // 
+            // comboBox1
+            // 
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Items.AddRange(new object[] {
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10"});
+            this.comboBox1.Location = new System.Drawing.Point(690, 22);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(58, 21);
+            this.comboBox1.TabIndex = 59;
+            this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
+            // 
+            // label20
+            // 
+            this.label20.AutoSize = true;
+            this.label20.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label20.ForeColor = System.Drawing.Color.Red;
+            this.label20.Location = new System.Drawing.Point(331, 23);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(353, 20);
+            this.label20.TabIndex = 60;
+            this.label20.Text = "Number Of Semesters You Want To Count ";
+            this.label20.Click += new System.EventHandler(this.label20_Click);
+            // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.Color.Transparent;
+            this.panel1.Controls.Add(this.textBox1010);
+            this.panel1.Controls.Add(this.label111);
+            this.panel1.Controls.Add(this.textBox111);
+            this.panel1.Controls.Add(this.label222);
+            this.panel1.Controls.Add(this.label1010);
+            this.panel1.Controls.Add(this.textBox222);
+            this.panel1.Controls.Add(this.label333);
+            this.panel1.Controls.Add(this.textBox333);
+            this.panel1.Controls.Add(this.label444);
+            this.panel1.Controls.Add(this.textBox999);
+            this.panel1.Controls.Add(this.textBox444);
+            this.panel1.Controls.Add(this.label999);
+            this.panel1.Controls.Add(this.label55);
+            this.panel1.Controls.Add(this.textBox888);
+            this.panel1.Controls.Add(this.textBox555);
+            this.panel1.Controls.Add(this.label888);
+            this.panel1.Controls.Add(this.label666);
+            this.panel1.Controls.Add(this.textBox777);
+            this.panel1.Controls.Add(this.textBox666);
+            this.panel1.Controls.Add(this.label777);
+            this.panel1.Location = new System.Drawing.Point(43, 10);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(200, 402);
+            this.panel1.TabIndex = 61;
+            // 
             // CGP
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -818,6 +872,8 @@ namespace CGPA_Counter
             this.tabPage1.PerformLayout();
             this.tabPage3.ResumeLayout(false);
             this.tabPage3.PerformLayout();
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -867,30 +923,34 @@ namespace CGPA_Counter
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Label label19;
         private System.Windows.Forms.TextBox Results;
-        private System.Windows.Forms.TextBox textBox19;
-        private System.Windows.Forms.Label label20;
-        private System.Windows.Forms.TextBox textBox20;
-        private System.Windows.Forms.Label label21;
-        private System.Windows.Forms.TextBox textBox21;
-        private System.Windows.Forms.Label label22;
-        private System.Windows.Forms.TextBox textBox22;
-        private System.Windows.Forms.Label label23;
-        private System.Windows.Forms.TextBox textBox23;
-        private System.Windows.Forms.Label label24;
-        private System.Windows.Forms.TextBox textBox24;
-        private System.Windows.Forms.Label label25;
-        private System.Windows.Forms.TextBox textBox25;
-        private System.Windows.Forms.Label label26;
-        private System.Windows.Forms.TextBox textBox26;
-        private System.Windows.Forms.Label label27;
-        private System.Windows.Forms.TextBox textBox27;
-        private System.Windows.Forms.Label label28;
+        private System.Windows.Forms.TextBox textBox999;
+        private System.Windows.Forms.Label label999;
+        private System.Windows.Forms.TextBox textBox888;
+        private System.Windows.Forms.Label label888;
+        private System.Windows.Forms.TextBox textBox777;
+        private System.Windows.Forms.Label label777;
+        private System.Windows.Forms.TextBox textBox666;
+        private System.Windows.Forms.Label label666;
+        private System.Windows.Forms.TextBox textBox555;
+        private System.Windows.Forms.Label label55;
+        private System.Windows.Forms.TextBox textBox444;
+        private System.Windows.Forms.Label label444;
+        private System.Windows.Forms.TextBox textBox333;
+        private System.Windows.Forms.Label label333;
+        private System.Windows.Forms.TextBox textBox222;
+        private System.Windows.Forms.Label label222;
+        private System.Windows.Forms.TextBox textBox111;
+        private System.Windows.Forms.Label label111;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Label label29;
-        private System.Windows.Forms.Label label31;
         private System.Windows.Forms.Label label30;
         private System.Windows.Forms.Label label32;
         private System.Windows.Forms.TextBox RESU;
+        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.TextBox textBox1010;
+        private System.Windows.Forms.Label label1010;
+        private System.Windows.Forms.Label label20;
+        private System.Windows.Forms.Panel panel1;
     }
 }
 

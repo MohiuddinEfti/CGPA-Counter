@@ -15,6 +15,11 @@ namespace CGPA_Counter
         public CGP()
         {
             InitializeComponent();
+            if (comboBox1.Text=="")
+            {
+                textBox111.Visible=textBox222.Visible=textBox333.Visible=textBox444.Visible=textBox555.Visible=textBox666.Visible=textBox777.Visible=textBox888.Visible=textBox999.Visible=textBox1010.Visible=false;
+                label1010.Visible=label111.Visible=label222.Visible=label333.Visible=label444.Visible=label55.Visible=label666.Visible=label777.Visible=label888.Visible=label999.Visible=false;
+            }
         }
         public float a;
         public float b;
@@ -445,21 +450,21 @@ namespace CGPA_Counter
             float r = b+d+f+h+j+l+n+p+x;
             float result = resultss /r;
             Results.Text = result.ToString();
-            textBox1.Text = textBox2.Text = textBox3.Text = textBox4.Text = textBox5.Text = textBox6.Text = textBox7.Text = textBox8.Text = textBox9.Text = textBox10.Text = textBox11.Text = textBox12.Text = textBox13.Text = textBox14.Text = textBox15.Text = textBox16.Text = textBox17.Text = textBox18.Text = string.Empty;
+            //textBox1.Text = textBox2.Text = textBox3.Text = textBox4.Text = textBox5.Text = textBox6.Text = textBox7.Text = textBox8.Text = textBox9.Text = textBox10.Text = textBox11.Text = textBox12.Text = textBox13.Text = textBox14.Text = textBox15.Text = textBox16.Text = textBox17.Text = textBox18.Text = string.Empty;
         }
 
         private void textBox27_TextChanged(object sender, EventArgs e)
         {
-            if(textBox27.Text=="")
+            if(textBox111.Text=="")
             {
-                textBox27.Text = "0";
+                textBox111.Text = "0";
             }
-            else if (textBox27.Text == ".")
+            else if (textBox111.Text == ".")
             {
                 MessageBox.Show("Invalid Value" );
             }
-            first = float.Parse(textBox27.Text);
-            if(textBox27.Text!="")
+            first = float.Parse(textBox111.Text);
+            if(textBox111.Text!="")
             {
                 first1 = 1;
             }         
@@ -473,20 +478,20 @@ namespace CGPA_Counter
 
         private void textBox26_TextChanged(object sender, EventArgs e)
         {
-            if (textBox26.Text == "")
+            if (textBox222.Text == "")
             {
-                textBox26.Text = "0";
+                textBox222.Text = "0";
             }
-            else if (textBox26.Text == ".")
+            else if (textBox222.Text == ".")
             {
                 MessageBox.Show("Invalid Value");
             }
-            second = float.Parse(textBox26.Text);
-            if (textBox26.Text != "")
+            second = float.Parse(textBox222.Text);
+            if (textBox222.Text != "")
             {
                 second2 = 1;
             }
-            else if (textBox26.Text == "0")
+            else if (textBox222.Text == "0")
             {
                 second2 = 0;
             }
@@ -498,20 +503,20 @@ namespace CGPA_Counter
 
         private void textBox25_TextChanged(object sender, EventArgs e)
         {
-            if (textBox25.Text == "")
+            if (textBox333.Text == "")
             {
-                textBox25.Text = "0";
+                textBox333.Text = "0";
             }
-            else if (textBox25.Text == ".")
+            else if (textBox333.Text == ".")
             {
                 MessageBox.Show("Invalid Value");
             }
-            third = float.Parse(textBox25.Text);
-            if (textBox25.Text != "")
+            third = float.Parse(textBox333.Text);
+            if (textBox333.Text != "")
             {
                 third3 = 1;
             }
-            else if (textBox25.Text == "0")
+            else if (textBox333.Text == "0")
             {
                 third3 = 0;
             }
@@ -523,20 +528,20 @@ namespace CGPA_Counter
 
         private void textBox24_TextChanged(object sender, EventArgs e)
         {
-            if (textBox24.Text == "")
+            if (textBox444.Text == "")
             {
-                textBox24.Text = "0";
+                textBox444.Text = "0";
             }
-            else if (textBox24.Text == ".")
+            else if (textBox444.Text == ".")
             {
                 MessageBox.Show("Invalid Value");
             }
-            fourth = float.Parse(textBox24.Text);
-            if (textBox24.Text != "")
+            fourth = float.Parse(textBox444.Text);
+            if (textBox444.Text != "")
             {
                 fourth4 = 1;
             }
-            else if (textBox24.Text == "0")
+            else if (textBox444.Text == "0")
             {
                 fourth4 = 0;
             }
@@ -548,20 +553,20 @@ namespace CGPA_Counter
 
         private void textBox23_TextChanged(object sender, EventArgs e)
         {
-            if (textBox23.Text == "")
+            if (textBox555.Text == "")
             {
-                textBox23.Text = "0";
+                textBox555.Text = "0";
             }
-            else if (textBox23.Text == ".")
+            else if (textBox555.Text == ".")
             {
                 MessageBox.Show("Invalid Value");
             }
-            fifth = float.Parse(textBox23.Text);
-            if (textBox23.Text != "")
+            fifth = float.Parse(textBox555.Text);
+            if (textBox555.Text != "")
             {
                 fifth5 = 1;
             }
-            else if (textBox23.Text == "0")
+            else if (textBox555.Text == "0")
             {
                 fifth5 = 0;
             }
@@ -573,20 +578,20 @@ namespace CGPA_Counter
 
         private void textBox22_TextChanged(object sender, EventArgs e)
         {
-            if (textBox22.Text == "")
+            if (textBox666.Text == "")
             {
-                textBox22.Text = "0";
+                textBox666.Text = "0";
             }
-            else if (textBox22.Text == ".")
+            else if (textBox666.Text == ".")
             {
                 MessageBox.Show("Invalid Value");
             }
-            sixth = float.Parse(textBox22.Text);
-            if (textBox22.Text != "")
+            sixth = float.Parse(textBox666.Text);
+            if (textBox666.Text != "")
             {
                 sixth6 = 1;
             }
-            else if (textBox22.Text == "0")
+            else if (textBox666.Text == "0")
             {
                 sixth6 = 0;
             }
@@ -598,20 +603,20 @@ namespace CGPA_Counter
 
         private void textBox21_TextChanged(object sender, EventArgs e)
         {
-            if (textBox21.Text == "")
+            if (textBox777.Text == "")
             {
-                textBox21.Text = "0";
+                textBox777.Text = "0";
             }
-            else if (textBox21.Text == ".")
+            else if (textBox777.Text == ".")
             {
                 MessageBox.Show("Invalid Value");
             }
-            sevent = float.Parse(textBox21.Text);
-            if (textBox21.Text != "")
+            sevent = float.Parse(textBox777.Text);
+            if (textBox777.Text != "")
             {
                 sevent7 = 1;
             }
-            else if (textBox21.Text == "0")
+            else if (textBox777.Text == "0")
             {
                 sevent7 = 0;
             }
@@ -623,20 +628,20 @@ namespace CGPA_Counter
 
         private void textBox20_TextChanged(object sender, EventArgs e)
         {
-            if (textBox20.Text == "")
+            if (textBox888.Text == "")
             {
-                textBox20.Text = "0";
+                textBox888.Text = "0";
             }
-            else if (textBox20.Text == ".")
+            else if (textBox888.Text == ".")
             {
                 MessageBox.Show("Invalid Value");
             }
-            eight = float.Parse(textBox20.Text);
-            if (textBox20.Text != "")
+            eight = float.Parse(textBox888.Text);
+            if (textBox888.Text != "")
             {
                 eight8 = 1;
             }
-            else if (textBox20.Text == "0")
+            else if (textBox888.Text == "0")
             {
                 eight8 = 0;
             }
@@ -648,20 +653,20 @@ namespace CGPA_Counter
 
         private void textBox19_TextChanged(object sender, EventArgs e)
         {
-            if (textBox19.Text == "")
+            if (textBox999.Text == "")
             {
-                textBox19.Text = "0";
+                textBox999.Text = "0";
             }
-            else if (textBox19.Text == ".")
+            else if (textBox999.Text == ".")
             {
                 MessageBox.Show("Invalid Value");
             }
-            nine = float.Parse(textBox19.Text);
-            if (textBox19.Text != "")
+            nine = float.Parse(textBox999.Text);
+            if (textBox999.Text != "")
             {
                 nine9 = 1;
             }
-            else if (textBox19.Text == "0")
+            else if (textBox999.Text == "0")
             {
                 nine9 = 0;
             }
@@ -678,8 +683,83 @@ namespace CGPA_Counter
             float resultSSS = cgp / sem;
             
             RESU.Text=resultSSS.ToString();
-            textBox19.Text = textBox20.Text = textBox21.Text = textBox22.Text = textBox23.Text = textBox24.Text = textBox25.Text = textBox26.Text = textBox27.Text = string.Empty;
+            //textBox19.Text = textBox20.Text = textBox21.Text = textBox22.Text = textBox23.Text = textBox24.Text = textBox25.Text = textBox26.Text = textBox27.Text = string.Empty;
+
+        }
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (comboBox1.Text=="2")
+            {   
+                textBox111.Visible=textBox222.Visible=true;
+                label111.Visible=label222.Visible=true;
+                textBox333.Visible=textBox444.Visible=textBox555.Visible=textBox666.Visible=textBox777.Visible=textBox888.Visible=textBox999.Visible=textBox1010.Visible=false;
+                label333.Visible=label444.Visible=label55.Visible=label666.Visible=label777.Visible=label888.Visible=label999.Visible=label1010.Visible=false;
+            }
+            else if(comboBox1.Text=="3")
+            {
+                textBox111.Visible=textBox222.Visible=textBox333.Visible=true;
+                label111.Visible=label222.Visible=label333.Visible=true;
+                textBox444.Visible=textBox555.Visible=textBox666.Visible=textBox777.Visible=textBox888.Visible=textBox999.Visible=textBox1010.Visible=false;
+                label444.Visible=label55.Visible=label666.Visible=label777.Visible=label888.Visible=label999.Visible=label1010.Visible=false;
+            }
+            else if(comboBox1.Text=="4")
+            {
+                textBox111.Visible=textBox222.Visible=textBox333.Visible=textBox444.Visible=true;
+                label111.Visible=label222.Visible=label333.Visible=label444.Visible=true;
+                textBox555.Visible=textBox666.Visible=textBox777.Visible=textBox888.Visible=textBox999.Visible=textBox1010.Visible=false;
+                label55.Visible=label666.Visible=label777.Visible=label888.Visible=label999.Visible=label1010.Visible=false;
+            }
+            else if(comboBox1.Text=="5")
+            {
+                textBox111.Visible=textBox222.Visible=textBox333.Visible=textBox444.Visible=textBox555.Visible=true;
+                label111.Visible=label222.Visible=label333.Visible=label444.Visible=label55.Visible=true;
+                textBox666.Visible=textBox777.Visible=textBox888.Visible=textBox999.Visible=textBox1010.Visible=false;
+                label666.Visible=label777.Visible=label888.Visible=label999.Visible=label1010.Visible=false;
+            }
+            else if(comboBox1.Text=="6")
+            {
+                textBox111.Visible=textBox222.Visible=textBox333.Visible=textBox444.Visible=textBox555.Visible=textBox666.Visible=true;
+                label111.Visible=label222.Visible=label333.Visible=label444.Visible=label55.Visible=label666.Visible=true;
+                textBox777.Visible=textBox888.Visible=textBox999.Visible=textBox1010.Visible=false; label777.Visible=label888.Visible=label999.Visible=label1010.Visible=false;
+            }
+            else if(comboBox1.Text=="7")
+            {
+                textBox111.Visible=textBox222.Visible=textBox333.Visible=textBox444.Visible=textBox555.Visible=textBox666.Visible=textBox777.Visible=true;
+                label111.Visible=label222.Visible=label333.Visible=label444.Visible=label55.Visible=label666.Visible=label777.Visible=true;
+                textBox888.Visible=textBox999.Visible=textBox1010.Visible=false; label888.Visible=label999.Visible=label1010.Visible=false;
+            }
+            else if(comboBox1.Text=="8")
+            {
+                textBox111.Visible=textBox222.Visible=textBox333.Visible=textBox444.Visible=textBox555.Visible=textBox666.Visible=textBox777.Visible= textBox888.Visible=true;
+                label111.Visible=label222.Visible=label333.Visible=label444.Visible=label55.Visible=label666.Visible=label777.Visible=label888.Visible=true;
+                textBox999.Visible=textBox1010.Visible=false; label999.Visible=label1010.Visible=false;
+            }
+            else if(comboBox1.Text=="9")
+            {
+                textBox111.Visible=textBox222.Visible=textBox333.Visible=textBox444.Visible=textBox555.Visible=textBox666.Visible=textBox777.Visible= textBox888.Visible=textBox999.Visible=true;
+                label111.Visible=label222.Visible=label333.Visible=label444.Visible=label55.Visible=label666.Visible=label777.Visible=label888.Visible= label999.Visible=true;
+                textBox1010.Visible=false; label1010.Visible=false;
+            }
+            else if(comboBox1.Text=="10")
+            {
+                textBox111.Visible=textBox222.Visible=textBox333.Visible=textBox444.Visible=textBox555.Visible=textBox666.Visible=textBox777.Visible=textBox888.Visible=textBox999.Visible=textBox1010.Visible=true;
+                label1010.Visible=label111.Visible=label222.Visible=label333.Visible=label444.Visible=label55.Visible=label666.Visible=label777.Visible=label888.Visible=label999.Visible=true;
+            }
+            else
+            {
+                MessageBox.Show("There Is No Such Option");
+                comboBox1.Text=string.Empty;
+            }
+            
+          
+        }
+
+        private void label20_Click(object sender, EventArgs e)
+        {
 
         }
     }
+    
 }
+
